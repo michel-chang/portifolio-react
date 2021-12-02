@@ -33,7 +33,7 @@ function App() {
       case"+":
       setResult(Number(number1)+Number (number2));
       break;
-      case "-":
+        case "-":
         setResult(Number(number1)-Number (number2));
         break;
         case "*":
@@ -42,6 +42,7 @@ function App() {
         case "/":
         setResult(Number(number1)/Number (number2));
         break;
+        default: // Do nothing
      }
    }
   return (
